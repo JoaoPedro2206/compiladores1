@@ -1,0 +1,46 @@
+site_name: PyToC
+site_url: https://github.com/Tiago1604/compiladores_14
+
+nav:
+  - Home:
+      - Sobre: index.md
+  - Planejamento:
+    - Cronograma: planejamento/cronograma.md
+    - Metodologia: planejamento/metodologia.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Planejamento das Sprints: planejamento/planejamento_das_sprints.md
+  - Decisões Técnicas: decisoes/decisao.md
+  - Problemas e Soluções: problemas_e_solucoes/problemas_e_solucoes1.md
+  - Atas de Reunião:
+    - Ata 1: atas/ata1.md
+    - Ata 2: atas/ata2.md
+  - Atividades Semanais:
+    - Semana 1: atividades_semanais/Semana1.md
+    - Semana 2: atividades_semanais/Semana2.md
+    - Semana 3: atividades_semanais/Semana3.md
+  - Ponto de Controle:
+    - Ponto de Controle 1: ponto_de_controle/ponto_de_controle1.md
+
+theme:
+  logo: assets/logo.jpg
+  name: material
+  font:
+    text: IBM Plex Serif
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    - scheme: light
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+icon:
+  repo: fontawesome/brands/git-alt
